@@ -1,0 +1,73 @@
+.h-container {
+  min-height: 100vh;
+}
+.h-header {
+  background-color: #282c34;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  margin-bottom: 0;
+}
+
+.h-scroll {
+  background-color: #282c34;
+  min-height: 15vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.h-intro {
+  font-weight: 300;
+  margin: 0;
+}
+
+.h-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.h-title-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  33% {
+    transform: translateY(-50px);
+  }
+  66% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
+}
+
+.h-title-item {
+  height: 50px;
+  font-style: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.h-desc {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: left;
+
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+
+.h-img {
+  height: 7vh;
+}
