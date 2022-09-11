@@ -4,7 +4,7 @@ import Background from "./Backgrounds/index";
 
 const Header = () => {
   return (
-    <div className="h-container">
+    <div className="container h-container">
       <Background />
 
       <div className="h-header">
@@ -23,6 +23,7 @@ const Header = () => {
           src="https://i.pinimg.com/550x/f1/ff/79/f1ff79c2cff1d151c540944305eef758.jpg"
           width={1}
           height={1}
+          alt="easteregg"
         />
 
         <p className="h-desc">

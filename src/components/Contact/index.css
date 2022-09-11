@@ -1,0 +1,27 @@
+.c-container {
+  background-color: #282c34;
+  border: 2px solid black;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+
+  min-height: 40vh;
+}
+
+.c-left {
+  border: 1px solid green;
+  margin: 50px;
+}
+
+.c-right {
+  border: 1px solid green;
+  margin: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
